@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libasm.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cbenali- <cbenali-@student.42.fr>          +#+  +:+       +#+        */
+/*   By: oel-ouar <oel-ouar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/03/08 23:31:20 by cbenali-          #+#    #+#             */
-/*   Updated: 2020/03/08 23:47:52 by cbenali-         ###   ########.fr       */
+/*   Created: 2020/10/21 16:43:00 by oel-ouar          #+#    #+#             */
+/*   Updated: 2020/10/21 16:43:03 by oel-ouar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <stdio.h>
 # include <fcntl.h>
 # include <stdlib.h>
+# include <errno.h>
 
 # define RESET   "\033[0m"
 # define RED     "\033[31m"
