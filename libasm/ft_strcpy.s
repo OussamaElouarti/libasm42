@@ -11,12 +11,11 @@ _cpyLoop:
     mov byte [rdi +rbx], dl
     cmp byte [rsi +rbx], 0
     jne _inc
-    jmp _dst
+    jmp _return
 _inc:
     inc rbx
     jmp _cpyLoop
-_dst:
+_return:
+    mov byte [rdi + rbx], 0
     mov rax, rdi
-    jmp _return
-_return: 
-    ret 
+    ret
